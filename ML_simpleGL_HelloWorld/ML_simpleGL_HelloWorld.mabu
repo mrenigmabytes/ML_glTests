@@ -1,7 +1,31 @@
 KIND = program
 SRCS = src/ML_simpleGL_HelloWorld.cpp
 INCS = inc/
-USES = ml_sdk
+
+USES = \
+	OpenGL \
+	ml_sdk \
+	stdc++
+
+USES.win,osx,linux = \
+	glad \
+	glfw \
+
+DEFS.lumin = \
+	ML_DEVICE \
+	USE_GLFW=0 \
+
+DEFS.win = \
+	ML_WINDOWS \
+	USE_GLFW=1 \
+
+DEFS.osx = \
+	ML_OSX \
+	USE_GLFW=1 \
+	
+DEFS.linux = \
+	ML_LINUX \
+	USE_GLFW=1 \
 
 OPTIONS = \
 	standard-c++/11 \

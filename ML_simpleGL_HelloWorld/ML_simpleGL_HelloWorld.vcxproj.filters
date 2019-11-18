@@ -18,6 +18,12 @@
     <ClCompile Include="src/ML_simpleGL_HelloWorld.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="C:\GL\GLAD_ROOT\src\glad.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\GL\GLAD_ROOT\src\glad_wgl.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="inc/ML_simpleGL_HelloWorld.h">
@@ -28,5 +34,7 @@
     <None Include="manifest.xml" />
     <None Include="ML_simpleGL_HelloWorld.mabu" />
     <None Include="ML_simpleGL_HelloWorld.package" />
+    <None Include="glad.comp" />
+    <None Include="glfw.comp" />
   </ItemGroup>
 </Project>
