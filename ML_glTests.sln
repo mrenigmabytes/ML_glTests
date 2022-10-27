@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ML_simpleGL_Triangle", "ML_simpleGL_Triangle\ML_simpleGL_Triangle.vcxproj", "{C12F92C1-56F6-4DA3-91A8-F2374A6BB71F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|ML = Debug|ML
@@ -28,6 +30,14 @@ Global
 		{876D75D5-1C91-49F3-8E55-6C1727AF2F32}.Release|ML.Build.0 = Release|ML
 		{876D75D5-1C91-49F3-8E55-6C1727AF2F32}.Release|x64.ActiveCfg = Release|x64
 		{876D75D5-1C91-49F3-8E55-6C1727AF2F32}.Release|x64.Build.0 = Release|x64
+		{C12F92C1-56F6-4DA3-91A8-F2374A6BB71F}.Debug|ML.ActiveCfg = Debug|ML
+		{C12F92C1-56F6-4DA3-91A8-F2374A6BB71F}.Debug|ML.Build.0 = Debug|ML
+		{C12F92C1-56F6-4DA3-91A8-F2374A6BB71F}.Debug|x64.ActiveCfg = Debug|x64
+		{C12F92C1-56F6-4DA3-91A8-F2374A6BB71F}.Debug|x64.Build.0 = Debug|x64
+		{C12F92C1-56F6-4DA3-91A8-F2374A6BB71F}.Release|ML.ActiveCfg = Release|ML
+		{C12F92C1-56F6-4DA3-91A8-F2374A6BB71F}.Release|ML.Build.0 = Release|ML
+		{C12F92C1-56F6-4DA3-91A8-F2374A6BB71F}.Release|x64.ActiveCfg = Release|x64
+		{C12F92C1-56F6-4DA3-91A8-F2374A6BB71F}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

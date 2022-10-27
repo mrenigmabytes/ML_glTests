@@ -14,18 +14,22 @@ USES.win,osx,linux = \
 DEFS.lumin = \
 	ML_DEVICE \
 	USE_GLFW=0 \
+	GL_WINDOW=0 \
 
 DEFS.win = \
 	ML_WINDOWS \
 	USE_GLFW=1 \
+	GL_WINDOW=1 \
 
 DEFS.osx = \
 	ML_OSX \
 	USE_GLFW=1 \
+	GL_WINDOW=1 \ 
 	
 DEFS.linux = \
 	ML_LINUX \
 	USE_GLFW=1 \
+	GL_WINDOW=1 \
 
 OPTIONS = \
 	standard-c++/11 \

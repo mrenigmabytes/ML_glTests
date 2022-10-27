@@ -1,0 +1,16 @@
+KIND = program
+SRCS = src/ML_simpleGL_Triangle.cpp
+INCS = inc/
+
+USES = \
+	OpenGL \
+	ml_sdk \
+	stdc++
+
+USES.win,osx,linux = \
+	..\ML_simpleGL_HelloWorld\glad \
+	..\ML_simpleGL_HelloWorld\glfw \
+
+OPTIONS = \
+	standard-c++/11 \
+	stl/libgnustl
