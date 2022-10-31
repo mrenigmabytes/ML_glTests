@@ -21,6 +21,11 @@
 #include <ml_lifecycle.h>
 #include <ml_logging.h>
 
+// Adding GL_WINDOW directive mixed with DEBUG mode. This is to specifically omit Magic Leap
+// calls and just try and render vanilla OpenGL windows. When DEBUG and NOT GL_WINDOW 
+// then it calls perception to render to virtual environment.
+
+
 // Constants
 const char application_name[] = "com.magicleap.helloworld";
 #if USE_GLFW
